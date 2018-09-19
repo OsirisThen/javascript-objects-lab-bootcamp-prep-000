@@ -8,7 +8,7 @@ function updateObjectWithKeyAndValue(object, key, value){
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
-  object[key]=value;
+  recipes[key]=value;
   return object;
 }
 
@@ -19,7 +19,7 @@ function deleteFromObjectByKey(object, key){
 }
 
 function destructivelyDeleteFromObjectByKey(object, key){
- //object = { klk: 3 }
+ //object = { : 3 }
 
   return object;
 }
